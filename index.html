@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <header>
+        <h1 id="h1">
+          Score checker
+        </h1>
+      </header>
+
+      <section>
+
+        <div id="div1">
+           <input class="input" id="name" type="text" placeholder="name">
+        </div>
+        <div><label for="subject">select the subject</label></div>
+
+        <div>
+          <select class="input" id="subject">
+            <option value="math">Math</option>
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="math">Biology</option>
+            <option value="physics">English</option>
+            <option value="chemistry">Politics</option>
+           
+          </select>
+        </div>
+
+        <div>
+          <input class="input" id="mark" type="number" placeholder="enter your mark">
+        </div>
+
+       <button id="result" onclick="calculateMark()">Result</button>
+
+       <div id="final"></div>
+      </section>
+    
+    </div> 
+ 
+
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
